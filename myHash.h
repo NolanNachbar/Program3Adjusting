@@ -98,7 +98,7 @@ public:
         long int val = 0;
         for (i = 0; i <= word.size(); i++)
         {
-            // val += (int)word[i] * (i + 501 * (int)word[i]);
+            val += (int)word[i] * (i + 501 * (int)word[i]);
             // val += (int)word[i] * (i + 501 * (int)word[i]); 1.97 9854
             //  val += (int)word[i] * (i + 901 * (int)word[i]); 2.09 9967
             //  val += (int)word[i] * (i * 901 + (int)word[i]); 2.04 11348
