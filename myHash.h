@@ -7,7 +7,6 @@ class myHash
 {
 private:
     // hashsize is number you are going to decided on.
-    // this
     const static int HASHSIZE = 932176;
     T *hash;
     int size;
@@ -92,6 +91,7 @@ public:
     {
         return size;
     }
+    
     int findhash(std::string word)
     {
         int i;
@@ -109,7 +109,6 @@ public:
     }
     ~myHash()
     {
-        std::cout << " number of collisions: " << collisions << " count of attempts: " << countOfAttempts;
         delete[] hash;
     }
 };
