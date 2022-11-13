@@ -31,7 +31,6 @@ int main()
 
     // starting the time
     tim.Start();
-    cout << "Done inserting" << endl;
     // reading the book file and comparing to the dictionary
     string btmp;
     ifstream bookFile;
